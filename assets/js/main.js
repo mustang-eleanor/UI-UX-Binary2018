@@ -1,6 +1,8 @@
-var table = document.getElementsByTagName('table')[0];
-var cell = table.getElementsByTagName('td');
-var col, wh, lG;
+let table = document.getElementById("table-time");
+let cell = table.getElementsByTagName('td');
+let col, wh, lG;
+
+
 table.addEventListener('click', function(e) {
   col = window.getComputedStyle(e.target, null).backgroundColor;
   if (e.target.tagName === "TD") {

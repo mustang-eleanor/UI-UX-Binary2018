@@ -105,12 +105,10 @@ h1 {
 }
 
 .table_blur td {
-  border: 1px solid #e3eef7;
+  border: 1px solid #808080;
   padding: 10px 15px;
   position: relative;
   transition: all 0.5s ease;
-  text-align: center;
-  color: #0B6623;
 }
 
 .table_blur tbody:hover td {
