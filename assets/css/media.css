@@ -4,9 +4,18 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
     
+    .mobile {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 620px) {
-    
+    .author {
+        margin-right: 12px;
+    }
 }

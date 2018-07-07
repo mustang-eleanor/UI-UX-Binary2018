@@ -11,10 +11,6 @@
     font-family: 'Song Myung', serif;
 }
 /*-------------author-------------------*/
-.header-content {
-    
-}
-
 .header-text {
     display: flex;
     flex-direction: column;
@@ -180,4 +176,8 @@ h1 {
 .time {
     font-weight: bold;
     color: #000;
+}
+
+.mobile {
+    display: none;
 }
