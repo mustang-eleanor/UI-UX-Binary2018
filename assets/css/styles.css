@@ -8,21 +8,41 @@
     bottom: 100%;
     left: 0;
     overflow: hidden;
+    font-family: 'Song Myung', serif;
+}
+/*-------------author-------------------*/
+.header-content {
+    
 }
 
-h1 {
-    font-size: 24px;
-    text-align: center;
-    margin: 20px auto;
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
 }
-/*-------------user-------------------*/
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.alert {
+    font-weight: bold;
+}
+
 .author {
     background-color: #fff;
     border: 2px solid #e8e8e8;
     max-width: 300px;
     text-align: center;
     position: relative;
-    margin: 0 auto 50px;
+    margin: 0 50px 50px 0;
 }
 
 .text-author,
@@ -59,6 +79,42 @@ h1 {
     border: 2px solid #e8e8e8;
 }
 
+.top-line {
+    background: linear-gradient(#9595b6, #5a567f);
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 14px;
+}
+
+.social-links a:hover {
+    opacity: .7; 
+}
+
+.social-links {
+    margin: 20px auto;
+}
+
+.social-links a {
+    font-size: 18px;
+    color: #fff;
+    padding: 8px;
+    transition: all 1s ease;
+}
+
+.header-content {
+    display: flex;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px auto;
+    text-transform: uppercase;
+}
 /*-----------table--------------*/
 .table_blur {
   background: #f5ffff;
@@ -105,7 +161,7 @@ h1 {
 }
 
 .table_blur td {
-  border: 1px solid #000000;
+  border: 1px solid #808080;
   padding: 10px 15px;
   position: relative;
   transition: all 0.5s ease;
