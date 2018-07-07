@@ -42,15 +42,14 @@ h2 {
 }
 
 .text-author,
-.text-phone,
-.age {
+.text-phone {
     padding: 15px 35px 5px;
     font-size: 18px;
     font-family: cursive;
     line-height: 1.5;
 }
 
-.text-phone, .age {
+.text-phone {
     padding: 0 35px 5px;
     font-size: 18px;
     font-family: cursive;
